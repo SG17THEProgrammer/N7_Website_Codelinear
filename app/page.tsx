@@ -10,7 +10,7 @@ import {
   Marquee,
   MobileBanking,
   Solutions
-} from "@/components/Sections";
+} from "@/components/sections/index";
 
 export default function Home() {
   return (

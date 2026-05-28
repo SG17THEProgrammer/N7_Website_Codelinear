@@ -1,0 +1,11 @@
+export { Articles } from "./Articles";
+export { BlueBanner } from "./BlueBanner";
+export { CaseStudies } from "./CaseStudies";
+export { CoreBanking } from "./CoreBanking";
+export { CTAFooter } from "./CTAFooter";
+export { Efficiency } from "./Efficiency";
+export { Header } from "./Header";
+export { Hero } from "./Hero";
+export { Marquee } from "./Marquee";
+export { MobileBanking } from "./MobileBanking";
+export { Solutions } from "./Solutions";

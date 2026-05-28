@@ -1,4 +1,4 @@
-// File: C:\Users\bhag1\OneDrive\Documents\codelinear assignment\app\page.tsx
+// File: C:\Documents\vs code\codelinear\codelinear assignment\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
