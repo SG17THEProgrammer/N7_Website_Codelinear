@@ -38,11 +38,15 @@ img {
   }
 
   .btn-primary {
-    @apply inline-flex h-10 min-w-[150px] items-center justify-center rounded-[4px] bg-cyan px-6 text-[13px] font-semibold text-white shadow-glow transition duration-300 hover:-translate-y-0.5 hover:bg-[#18c8ff] focus:outline-none focus:ring-2 focus:ring-cyan/60;
+    @apply inline-flex h-10 min-w-[150px] items-center justify-center rounded-[8px] bg-[linear-gradient(135deg,#08b7f5_0%,#0347df_100%)] px-6 text-[13px] font-semibold uppercase tracking-[0.03em] text-white shadow-glow 
+    transition duration-300  
+    hover:bg-none hover:bg-[#eaf8ff] hover:text-[#0347df] focus:outline-none focus:ring-2 focus:ring-cyan/60;
   }
 
   .btn-secondary {
-    @apply inline-flex h-10 min-w-[150px] items-center justify-center rounded-[4px] border border-cyan/35 bg-transparent px-6 text-[13px] font-semibold text-white/90 transition duration-300 hover:-translate-y-0.5 hover:border-cyan hover:bg-cyan/10 focus:outline-none focus:ring-2 focus:ring-cyan/40;
+    @apply inline-flex h-10 min-w-[150px] items-center justify-center rounded-[8px] border border-white bg-transparent px-6 text-[13px] font-semibold text-white/90 
+    transition duration-300  
+    hover:border-white hover:bg-white hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-cyan/40;
   }
 
   .eyebrow {

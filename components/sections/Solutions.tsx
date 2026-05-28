@@ -9,7 +9,7 @@ export function Solutions() {
           <h2 className="max-w-[360px] text-[31px] font-semibold leading-[1.12] tracking-[-0.035em]">
             All of our solutions are tailor-made to your needs
           </h2>
-          <a className="btn-secondary mt-9 hover:bg-white hover:text-blue-500" href="#contact">REQUEST DEMO</a>
+          <a className="btn-secondary mt-9" href="#contact">REQUEST DEMO</a>
         </div>
         <div className="grid gap-x-16 gap-y-12 sm:grid-cols-2">
           {features.map((feature, index) => (

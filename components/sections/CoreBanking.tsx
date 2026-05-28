@@ -9,7 +9,7 @@ export function CoreBanking() {
           <p className="body-copy mt-5 max-w-[430px]">
             Modernize your bank with a scalable platform designed for product, account, transaction and customer workflows.
           </p>
-          <a className="btn-primary mt-8 hover:text-blue-500 hover:bg-white" href="#contact">REQUEST DEMO</a>
+          <a className="btn-primary mt-8" href="#contact">REQUEST DEMO</a>
           <br />
           <ReadMore msg="learn more" align="left" />
         </div>

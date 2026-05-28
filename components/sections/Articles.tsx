@@ -58,7 +58,7 @@ export function Articles() {
           <h2 className="max-w-[390px] text-[27px] font-semibold leading-[1.15] tracking-[-0.03em]">
             Get yourself up-to-speed on all the things happening in fintech
           </h2>
-          <a className="btn-secondary mt-8 hover:bg-white hover:text-blue-500" href="#case-studies">INSIGHTS</a>
+          <a className="btn-secondary mt-8" href="#case-studies">INSIGHTS</a>
         </div>
         <div className="grid gap-6">
           <ArticleCard large />

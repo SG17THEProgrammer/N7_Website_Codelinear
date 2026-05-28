@@ -11,7 +11,7 @@ export function MobileBanking() {
         <div className="grid gap-12 md:grid-cols-[.82fr_1.18fr]">
           <div>
             <h2 className="max-w-[420px] text-[36px] font-semibold leading-[1.08] tracking-[-0.04em] md:text-[48px]">
-              Digital banking out-of-the-box
+              Digital banking <br /> out-of-the-box
             </h2>
             <p className="mt-5 max-w-[405px] text-[14px] leading-7 text-slate-600">
               N7 helps your financial institution improve the client experience, automate and optimize procedures.
