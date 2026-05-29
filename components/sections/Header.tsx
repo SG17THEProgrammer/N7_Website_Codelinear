@@ -5,7 +5,7 @@ export function Header() {
     <header className="fixed left-0 right-0 top-0 z-50 pt-4">
       <nav className="container-n7">
         <div className="mx-auto flex h-12 max-w-[620px] items-center justify-between rounded-[5px] bg-[#212527]/50 px-4 backdrop-blur-md text-upper ">
-          <a className="text-[13px] font-bold tracking-[-0.03em]" href="#top">
+          <a className="text-xl font-semibold tracking-[-0.03em]" href="#top">
             N7
           </a>
           <div className="hidden items-center gap-8 text-[10px] font-medium uppercase tracking-[0.1em] text-white/[0.52] sm:flex">
