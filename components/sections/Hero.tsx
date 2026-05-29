@@ -59,9 +59,18 @@ export function Hero() {
           </div>
         </div>
         <div className="relative min-h-[420px] overflow-hidden md:min-h-[360px] md:overflow-visible">
-          <img src="/images/hero/hero.png" alt="error" className="mix-blend-lighten scale-150 ml-[16%] mt-5 h-[250px]" />
+          <img
+            src="/images/hero/hero.png"
+            alt="hero"
+            className="
+    w-full max-w-[620px] h-auto object-contain
+    mx-auto md:ml-[10%] md:mt-5
+    scale-100 md:scale-110 lg:scale-125
+    mix-blend-lighten
+  "
+          />
         </div>
-      </div>  
+      </div>
     </section>
   );
 }

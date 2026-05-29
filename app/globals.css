@@ -38,7 +38,7 @@ img {
   }
 
   .btn-primary {
-    @apply inline-flex h-10 min-w-[150px] items-center justify-center rounded-[8px] bg-[linear-gradient(135deg,#08b7f5_0%,#0347df_100%)] px-6 text-[13px] font-semibold uppercase tracking-[0.03em] text-white shadow-glow 
+    @apply inline-flex h-10 min-w-[150px] items-center justify-center rounded-[8px] bg-[linear-gradient(135deg,#08b7f5_0%,#0347df_100%)] px-6 text-[13px] font-semibold uppercase tracking-[0.03em] text-white hover:shadow-glow 
     transition duration-300  
     hover:bg-none hover:bg-[#eaf8ff] hover:text-[#0347df] ;
   }

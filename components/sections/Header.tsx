@@ -8,13 +8,25 @@ export function Header() {
           <a className="text-xl font-semibold tracking-[-0.03em]" href="#top">
             N7
           </a>
-          <div className="hidden items-center gap-8 text-[10px] font-medium uppercase tracking-[0.1em] text-white/[0.52] sm:flex">
-            <a className="transition text-white" href="#solutions"><span className="flex items-center">Solutions <ChevronDown /></span></a>
-            <a className="transition text-white" href="#banking"><span className="flex items-center">Resources <ChevronDown /></span></a>
-            <a className="transition text-white" href="#case-studies">About Us</a>
+          <div className="flex items-center gap-4 sm:gap-8 text-[9px] sm:text-[10px] font-medium uppercase tracking-[0.1em] text-white/[0.52]">
+            <a className="transition text-white" href="#solutions">
+              <span className="flex items-center">
+                Solutions <ChevronDown size={14} />
+              </span>
+            </a>
+
+            <a className="transition text-white" href="#banking">
+              <span className="flex items-center">
+                Resources <ChevronDown size={14} />
+              </span>
+            </a>
+
+            <a className="transition text-white" href="#case-studies">
+              About Us
+            </a>
           </div>
           <a
-            className="rounded-[3px] border border-white-500 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.08em] text-white transition hover:border-white sm:px-4 sm:tracking-[0.1em]"
+            className="rounded-[3px] border border-white-500 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.08em] text-white transition hover:text-blue-500 hover:bg-white sm:px-4 sm:tracking-[0.1em]"
             href="#contact"
           >
             <span className="hidden sm:inline">Request Demo</span>

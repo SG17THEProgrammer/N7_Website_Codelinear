@@ -53,23 +53,32 @@ function ArticleCard({
 export function Articles() {
   return (
     <section className="border-b border-line bg-ink py-24">
-      <div className="container-n7 grid gap-14 lg:grid-cols-[.75fr_1.25fr]">
-        <div>
-          <h2 className="max-w-[390px] text-[27px] font-semibold leading-[1.15] tracking-[-0.03em]">
-            Get yourself up-to-speed on all the things happening in fintech
-          </h2>
-          <a className="btn-secondary mt-8" href="#case-studies">INSIGHTS</a>
-        </div>
-        <div className="grid gap-6">
-          <ArticleCard large />
-          <div className="grid gap-6 sm:grid-cols-2">
-            {posts.slice(0, 2).map(([title, meta], idx) => (
-              <ArticleCard key={idx} title={title} meta={meta} />
-            ))}
+      <div className="container-n7">
+        <div className="grid gap-14 lg:grid-cols-[.75fr_1.25fr]">
+          <div>
+            <h2 className="max-w-[390px] text-[27px] font-semibold leading-[1.15] tracking-[-0.03em]">
+              Get yourself up-to-speed on all the things happening in fintech
+            </h2>
+
+            <a className="btn-secondary mt-8" href="#case-studies">
+              INSIGHTS
+            </a>
+          </div>
+
+          <div className="grid gap-6">
+            <ArticleCard large />
+
+            <div className="grid gap-6 sm:grid-cols-2">
+              {posts.slice(0, 2).map(([title, meta], idx) => (
+                <ArticleCard key={idx} title={title} meta={meta} />
+              ))}
+            </div>
           </div>
         </div>
+
+        {/* move inside container */}
+        <ReadMore msg="Read all Insights" align="right" />
       </div>
-      <ReadMore msg="Read all Insights" align="right" per={8} />
     </section>
   );
 }
